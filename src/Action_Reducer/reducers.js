@@ -10,12 +10,12 @@ const userSlice = createSlice({
     initialState,
     reducers:{
         addCandidates:(state,payload)=>{
-            state.candidates.push(payload)
+            state.candidates.push(payload.payload)
             state.strength_of_candidate += 1
         },
         removeCandidate:(state,payload)=>{
             if (state.strength_of_candidate>=1){
-                let index = state.candidates.findIndex(elem=>elem.payload.email===payload)
+                let index = state.candidates.findIndex(elem=>elem.email===payload.payload)
                 if(index===undefined){
                     return
                 }
