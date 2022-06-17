@@ -1,4 +1,5 @@
-import { configureStore } from "@reduxjs/toolkit";
+import { applyMiddleware, configureStore } from "@reduxjs/toolkit";
+import thunk from "redux-thunk";
 
 import UserReducer from "./Action_Reducer/reducers"
 
