@@ -1,0 +1,20 @@
+#form {
+    width: 50%;
+    border: 1px solid black;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+#header {
+    text-align: center;
+}
+
+.form-body{
+    position: relative;
+    margin-top: 6%;
+}
+#Div-Button{
+    display: flex;
+    justify-content: center;
+}

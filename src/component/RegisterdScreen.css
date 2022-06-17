@@ -1,0 +1,22 @@
+.candidateCard{
+    width: 18rem;
+}
+
+#candidate{
+    display: grid;
+    justify-items: center;
+    margin-top: 7%;
+}
+th,td{
+    margin: 10px;
+    border: 1px solid;
+    
+}
+.table{
+    width:90%
+    
+}
+
+#Table_Heading{
+    margin: 1%;
+}
